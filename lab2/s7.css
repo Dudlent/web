@@ -1,0 +1,12 @@
+
+a {
+    padding: 10px; 
+    border-radius: 4px; 
+    background-color: orange; 
+    text-decoration: none; 
+    color: white; 
+}
+a:hover {
+    background-color: darkorange;
+
+  }

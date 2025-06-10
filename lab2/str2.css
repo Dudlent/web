@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    overflow: hidden;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-width: 15px;
+    border-style: solid;
+    animation: rainbow 5s linear infinite; 
+    border-image-slice: 1; 
+}
+
+@keyframes rainbow {
+    0% {
+        border-image-source: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+        transform: rotate(0deg);
+    }
+    100% {
+        border-image-source: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+        transform: rotate(360deg); 
+    }
+}
+
+  
+  

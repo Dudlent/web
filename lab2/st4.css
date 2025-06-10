@@ -1,0 +1,15 @@
+.square-image {
+    width: 200px; 
+    height: 200px;
+    border-radius: 15px; 
+    object-fit: cover; 
+}
+a {
+    border: 2px solid transparent; /* Начальный цвет границы */
+    transition: border-color 0.3s; /* Плавный переход для изменения цвета */
+}
+
+a:active {
+    border-color: #000 #aaa #aaa #000; /* Цвет границы при нажатии */
+}
+

@@ -1,0 +1,24 @@
+body {
+    background-image: url('img/background-vertical.jpg');
+    background-repeat: repeat-y;
+    padding-left: 20px;
+    font-family: 'Times New Roman', serif;
+}
+
+h1 {
+    font-family: Courier, monospace;
+    color: red;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+p:first-of-type {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px;
+}
+a:hover {
+    color: green;
+    text-decoration: none;
+}

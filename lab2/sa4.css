@@ -1,0 +1,18 @@
+@keyframes example {
+    0%   {background-color: red; left: 0; top: 0; transform: scale(1);}
+    50%  {background-color: blue; left: 150px; top: 150px; transform: scale(1.5);}
+    100% {background-color: red; left: 0; top: 0; transform: scale(1);}
+  }
+  
+ 
+  div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s; 
+    animation-direction: alternate; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out; 
+  }
+  
