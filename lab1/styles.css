@@ -1,0 +1,63 @@
+.auto {
+  width: 100%;
+
+  justify-content: center;
+  overflow: hidden;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 10px;
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 320px;
+  min-height: 100vh;
+  font-size: 14px;
+  line-height: 1.38em;
+  font-family: "TT Norms Pro", "Arial", sans-serif;
+  color: #000000;
+  font-weight: 300;
+  word-wrap: break-word;
+  background-color: #dbc5c557;
+}
+
+.text {
+  width: 50%;
+  background-color: #fcfbfbe0;
+}
+
+p,
+li,
+ol {
+  font-size: 20px;
+  padding: 10px;
+}
+h1,
+h2,
+h3 {
+  padding: 10px;
+}
+
+.fig {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #666;
+}
